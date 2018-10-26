@@ -1,0 +1,15 @@
+@import '~express-news-styleguide/init-base';
+@import '~express-news-styleguide/theme/graphic';
+
+@import 'base';
+
+div.graphic {
+    max-width: 1200px;
+    width: 98%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 5px 1% 0;
+}
+
+fieldset {
+    border: none !important;
+}
