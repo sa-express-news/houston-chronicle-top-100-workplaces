@@ -62,7 +62,7 @@ export default {
                 { key: 'Company name', label: 'Company', sortable: true, 'class': 'text-center' },
                 { key: 'Sector', label: 'Sector', 'class': 'text-center' },
                 { key: 'Year founded', label: 'Year founded', 'class': 'text-center' },
-                { key: 'Interesting facts', label: 'Interesting facts', 'class': 'text-center' },
+                { key: 'Regional employees', label: 'Regional employees', 'class': 'text-center' },
             ],
             currentPage: 1,
             perPage: 5,
