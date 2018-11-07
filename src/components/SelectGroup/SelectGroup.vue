@@ -1,17 +1,17 @@
 <template>
     <div class="select-group">
-        <label class="wrap">Large
-            <input type="radio" name="group" checked="checked" value="large" @input="$emit('group-changed', $event.target.value)">
+        <label class="wrap" for="large">Large
+            <input type="radio" id="large" name="group" checked="checked" value="large" @click="$emit('group-changed', $event.target.value)">
             <span class="checkmark"></span>
         </label>
 
-        <label class="wrap">Medium
-            <input type="radio" name="group" value="medium" @input="$emit('group-changed', $event.target.value)">
+        <label class="wrap" for="medium">Medium
+            <input type="radio" id="medium" name="group" value="medium" @click="$emit('group-changed', $event.target.value)">
             <span class="checkmark"></span>
         </label>
 
-        <label class="wrap">Small
-            <input type="radio" name="group" value="small" @input="$emit('group-changed', $event.target.value)">
+        <label class="wrap" for="small">Small
+            <input type="radio" id="small" name="group" value="small" @click="$emit('group-changed', $event.target.value)">
             <span class="checkmark"></span>
         </label>
     </div>
